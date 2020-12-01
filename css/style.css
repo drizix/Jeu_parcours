@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#arrow{
+  font-size: 50px;
+  color: white;
+}
+
+.game{
+  background-color: grey;
+  position: relative;
+  height: 800px;
+  width: 1000px;
+  border-radius: 15px;
+}
+
+#carre,#carre_yellow,#carre_orange,#carre_purple,#carre_red,#carre_blue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#carre,#carre_yellow,#carre_orange,#carre_purple,#carre_red,#carre_blue{
+  box-shadow: 0px 0px 10px 3px #FFFFFF;
+}
+#carre{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+#carre_blue{
+  bottom : 250px;
+  right : 0;
+  height: 300px;
+  width: 20px;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+#carre_red,#carre_yellow,#carre_orange,#carre_purple{
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+}
+#carre_red{
+    background-color: red;
+}
+
+#carre_yellow{
+    left: 200px;
+    background-color: yellow;
+}
+
+#carre_orange{
+    left: 650px;
+    background-color: orange;
+}
+
+#carre_purple{
+    left: 800px;
+    background-color: purple;
+}
+
+#chronotime{
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
